@@ -1,5 +1,6 @@
 import React from 'react';
 
+import './reset.css';
 import './App.css';
 
 import Head from './sections/head/Head';

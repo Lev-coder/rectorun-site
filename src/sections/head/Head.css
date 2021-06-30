@@ -1,0 +1,45 @@
+.header {
+    background-color: tomato;
+}
+
+.content {
+    margin: 0 auto;
+    width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerLogo {
+    /* background-image: url(""); */
+    width: 150px;
+    background-color: rebeccapurple;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigationItem {
+    margin: 15px 50px;
+    text-align: center;
+    color: white;
+}
+
+.navigationItem:hover {
+    background-color: rgb(44, 41, 16);
+}
+
+.navigationItem a {
+    text-decoration: none;
+    color: white;
+}
+
+.banner {
+    /* background-image: url(""); */
+    background-color: yellow;
+    width: 100%;
+    height: 500px;
+}
