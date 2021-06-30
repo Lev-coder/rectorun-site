@@ -4,15 +4,22 @@
     height: 300px;
     border-radius: 15px;
     background-color: yellow;
+
+    position: relative;
     justify-self: center;
 }
 
 .dichImg
 {
-
+    background-color: transparent;
 }
 
 .dishInfo
 {
-
+    background-color: teal;
+    position: absolute;
+    text-align: center;
+    padding: 15px 0px;
+    width: 100%;
+    bottom: 0;
 }
