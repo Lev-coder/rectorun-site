@@ -4,7 +4,7 @@
 
 .content {
     margin: 0 auto;
-    width: 1600px;
+    max-width: 1400px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,7 +32,8 @@
     background-color: rgb(44, 41, 16);
 }
 
-.navigationItem a {
+.navigationItemLink {
+    font-size: 16px;
     text-decoration: none;
     color: white;
 }

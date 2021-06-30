@@ -1,30 +1,33 @@
 import React from 'react';
-import './Head.css';
+import styleForHeader from './Head.module.css';
+
 
 export default class Head extends React.Component {
     render() {
+        console.log(styleForHeader);
         return (
-            <div className="header">
-                <div className="content">
+            <div className={styleForHeader.header} >
+                <div className={styleForHeader.content}>
 
-                    <div className="headerLogo">
-
+                    <div className={styleForHeader.headerLogo}>
                     </div>
 
-                    <ul className="navigation">
+                    <ul className={styleForHeader.navigation}>
 
-                        <li className="navigationItem">
-                            <a href="#" >Menu</a>
+                        <li className={styleForHeader.navigationItem}>
+                            <a href="#" className={styleForHeader.navigationItemLink}>
+                                Menu
+                            </a>
                         </li>
 
-                        <li className="navigationItem">
-                            <a href="#" >
+                        <li className={styleForHeader.navigationItem}>
+                            <a href="#" className={styleForHeader.navigationItemLink}>
                                 Comments
                             </a>
                         </li>
 
-                        <li className="navigationItem">
-                            <a href="#" >
+                        <li className={styleForHeader.navigationItem}>
+                            <a href="#" className={styleForHeader.navigationItemLink}>
                                 Make Order
                             </a>
                         </li>
@@ -33,8 +36,9 @@ export default class Head extends React.Component {
 
                 </div>
 
-                <div className="banner">
+                <div className={styleForHeader.banner}>
                 </div>
+                
             </div>
         )
     }
