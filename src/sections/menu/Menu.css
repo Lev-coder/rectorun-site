@@ -1,6 +1,6 @@
 .menu
 {
-
+    margin: 50px;
 }
 
 .content
@@ -13,7 +13,7 @@
 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     justify-content: center;
     column-gap: 30px;
     row-gap: 30px;
