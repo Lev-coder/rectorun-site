@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './Menu.css';
+
 import dishesData from '../../data/dishesData';
 
 import BaseSlider from '../../elements/sliders/base_slider/BaseSlider'

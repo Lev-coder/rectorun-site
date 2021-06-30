@@ -1,4 +1,5 @@
 import React from 'react';
+import './BaseCard.css';
 
 export default class BaseCard extends React.Component {
     constructor({ name, price, imgSrc }) {
