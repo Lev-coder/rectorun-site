@@ -1,11 +1,36 @@
 import React from 'react';
 
+import './Menu.css';
+
+import dishesData from '../../data/dishesData';
+
+import BaseCard from '../../elements/cards_dish/base_card/BaseCard';
+import NormalSlider from '../../elements/sliders/normal_slider/NormalSlider';
+
 export default class Menu extends React.Component {
     render() {
         return (
-            <div>
-                Menu
+            <div className="menu">
+                <div className="content">
+                    <div className="dishes">
+
+                        {
+                            dishesData.dishes.map(dish => {
+                                console.log(dish)
+                                return < BaseCard
+                                    name={dish.name}
+                                    price={dish.price}
+                                    imgSrc={dish.imgSrc}
+                                />;
+                            })
+                        }
+
+                    </div>
+                    < NormalSlider />
+                </div>
             </div >
         )
     }
+
+
 }

@@ -1,0 +1,49 @@
+.slider
+{
+    padding: 50px;
+    max-width: 300px;
+    display: flex;
+    justify-self: center;
+    align-content: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.left-step
+{
+    width: 64px;
+    height: 64px;
+    background-color: #232323;
+}
+
+.right-step
+{
+    width: 64px;
+    height: 64px;
+    background-color: #232323;
+}
+
+.ruler
+{
+    width: 100px;
+    height: 7px;
+    border-radius: 25px;
+    background-color: #6850d3;
+}
+
+.cursor
+{
+    position: absolute;
+}
+
+.pointer
+{
+    width: 5px;
+    background-color: chartreuse;
+
+}
+
+.pages
+{
+}
+
