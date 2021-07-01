@@ -7,7 +7,7 @@ export default class Footer extends React.Component {
         return (
             <div className={styleFromFooter.footer}>
                 <div className={styleFromFooter.content}>
-
+                    
                 </div>
             </div >
         )
