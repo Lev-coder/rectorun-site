@@ -1,8 +1,8 @@
 import React from 'react'
 
-import './BaseSlider.css';
+import './NormalSlider.css';
 
-export default class BaseSlider extends React.Component {
+export default class NormalSlider extends React.Component {
     render() {
         return (
             <div className="slider">
@@ -13,18 +13,8 @@ export default class BaseSlider extends React.Component {
                 </div>
 
                 <div className="ruler">
-                    <div className="cursor">
-
-                        <div className="pointer">
-
-                        </div>
-
-                        <div className="pages">
-                            4
-                        </div>
-
-                    </div>
-                </div>
+                    4 / 7
+                </div>  
 
                 <div className="right-step">
                     right

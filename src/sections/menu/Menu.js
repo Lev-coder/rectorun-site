@@ -4,8 +4,8 @@ import './Menu.css';
 
 import dishesData from '../../data/dishesData';
 
-import BaseSlider from '../../elements/sliders/base_slider/BaseSlider'
 import BaseCard from '../../elements/cards_dish/base_card/BaseCard';
+import NormalSlider from '../../elements/sliders/normal_slider/NormalSlider';
 
 export default class Menu extends React.Component {
     render() {
@@ -26,7 +26,7 @@ export default class Menu extends React.Component {
                         }
 
                     </div>
-                    < BaseSlider />
+                    < NormalSlider />
                 </div>
             </div >
         )

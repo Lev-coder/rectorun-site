@@ -1,0 +1,31 @@
+.slider
+{
+    padding: 50px;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.left-step
+{
+    width: 64px;
+    height: 64px;
+    background-color: #eb1f1f;
+    
+}
+
+.right-step
+{
+    width: 64px;
+    height: 64px;
+    background-color: #eb1f1f;
+}
+
+.ruler
+{
+    text-align: center;
+    width: 100px;
+    background-color: #6850d3;
+}
