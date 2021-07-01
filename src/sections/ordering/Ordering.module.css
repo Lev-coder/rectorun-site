@@ -1,0 +1,13 @@
+.ordering
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content
+{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
