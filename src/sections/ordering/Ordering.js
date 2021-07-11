@@ -2,8 +2,8 @@ import React from 'react';
 
 import syleFormOrdering from './Ordering.module.css';
 
-import BaseForm from '../../elements/forms/base_form/BaseForm';
-import GoogleMap from '../../elements/maps/GoogleMap/GoogleMap';
+import BaseForm from './form/Form';
+import GoogleMap from './map/Map';
 
 export default class Ordering extends React.Component {
     render() {

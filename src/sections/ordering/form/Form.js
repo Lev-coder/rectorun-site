@@ -1,6 +1,6 @@
 import React from 'react';
 
-import stlyForBaseForm from './BaseForm.module.css';
+import stlyForBaseForm from './Form.module.css';
 
 export default class BaseForm extends React.Component {
     render() {
