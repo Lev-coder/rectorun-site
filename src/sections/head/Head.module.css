@@ -22,22 +22,6 @@
     justify-content: center;
 }
 
-.navigationItem {
-    margin: 15px 50px;
-    text-align: center;
-    color: white;
-}
-
-.navigationItem:hover {
-    background-color: rgb(44, 41, 16);
-}
-
-.navigationItemLink {
-    font-size: 16px;
-    text-decoration: none;
-    color: white;
-}
-
 .banner {
     /* background-image: url(""); */
     background-color: yellow;

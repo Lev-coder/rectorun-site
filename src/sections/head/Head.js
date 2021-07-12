@@ -1,11 +1,11 @@
 import React from 'react';
 
+import HeadterItem from './header_item/HeaderItem';
 import styleForHeader from './Head.module.css';
 
 
 export default class Head extends React.Component {
     render() {
-        console.log(styleForHeader);
         return (
             <div className={styleForHeader.header} >
                 <div className={styleForHeader.content}>
@@ -15,31 +15,24 @@ export default class Head extends React.Component {
 
                     <ul className={styleForHeader.navigation}>
 
-                        <li className={styleForHeader.navigationItem}>
-                            <a href="#" className={styleForHeader.navigationItemLink}>
-                                Menu
-                            </a>
-                        </li>
+                        <HeadterItem
+                            href="#"
+                            textContent="Menu" />
 
-                        <li className={styleForHeader.navigationItem}>
-                            <a href="#" className={styleForHeader.navigationItemLink}>
-                                Comments
-                            </a>
-                        </li>
+                        <HeadterItem
+                            href="#"
+                            textContent="Comments" />
 
-                        <li className={styleForHeader.navigationItem}>
-                            <a href="#" className={styleForHeader.navigationItemLink}>
-                                Make Order
-                            </a>
-                        </li>
 
+                        <HeadterItem
+                            href="#"
+                            textContent="Make Order" />
                     </ul>
-
                 </div>
 
                 <div className={styleForHeader.banner}>
                 </div>
-                
+
             </div>
         )
     }
