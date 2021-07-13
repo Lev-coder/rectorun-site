@@ -1,20 +1,22 @@
-.menu
-{
+.menu {
     margin: 50px;
 }
 
-.content
-{
+.content {
     margin: 0 auto;
     max-width: 1400px;
 }
 
-.dishes
-{
+.dishes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     justify-content: center;
     column-gap: 10px;
     row-gap: 30px;
+}
+
+@media screen and (min-width: 544px) {
+    
+    /* grid-template-columns: repeat(3, 1fr); */
 }
